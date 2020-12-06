@@ -1,5 +1,7 @@
 ## currency_formatter
 Currency formatter gem for Ruby on Rails
+* Version: 0.0.4
+* Rubygems.org [link](https://rubygems.org/gems/currency_formatter/versions/0.0.4)
 
 ### Supported Version
 * Ruby 2.0.0, 2.1.x, 2.2.x, 2.3.x, 2.4.x, 2.5.x, 2.6.x, 2.7.x, 2.8

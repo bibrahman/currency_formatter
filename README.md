@@ -1,6 +1,4 @@
-# README
-
-### currency_formatter
+## currency_formatter
 Currency formatter gem for Ruby on Rails
 
 ### Supported Version
@@ -14,7 +12,7 @@ gem 'currency_formatter'
 
 Then bundle:
 ```
-<% bundle>
+% bundle
 ```
 
 ### Usage
@@ -22,12 +20,15 @@ You can use currency_formatter directly in your view, e.g. index.html.erb
 ```
 <div>
   <%= idr 1000 %>    // Rp 1.000,00
-  <%= usd 1000 %>    // $ 1,000.00
+  <%= usd 1000 %>    //  $ 1,000.00
 </div>
 ```
 
 ### Default Setting
-* Precision: 2
+* Precission: 2
 * Comma Separator
-  * IDR: ','
-  * USD: '.'
+  * IDR:   ,
+  * USD:   .
+* Currency symbol
+  * IDR:   Rp
+  * USD:   $
